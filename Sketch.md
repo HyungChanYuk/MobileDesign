@@ -57,30 +57,36 @@ Sketch
   
  
  ### 8-Point 그리드 시스템
-  * 8bit = 1byte
+ 
+  1. 8bit = 1byte
    - 스마트폰은 아이폰에서 시작했기 때문에 아이폰의 pt단위
    - 디자인 요소들의 사이즈는 8의 배수로(주요 스크린 사이즈들이 8의 배수)
    - 작은 단위는 4의 배수로.(매트리얼 디자인은 4dp가 기본)
-  * 적용 요소들
+   
+  2. 적용 요소들
    - Font sizes
    - Line heights
    - Padding
    - Margins
    - Roundings
    - Fixed width, Fixed heights
-  * 응용방식
+   
+  3. 응용방식
    - Grid Setting -> Grid Block Size : 8px
    - Nudge, Push, Shove 플러그인  -> set Nudge to 4, Set Push to 16, Set Shove to 48
  
 
 ### 타이포그래피 관리
- * 유의할 점
+
+ 1. 유의할 점
   - Material Type System의 권장 사이즈, 두께, 명도를 응용
   - 텍스트 정렬은 Align Text Baseline을 이용해야 베이스라인에 맞게 정렬
   - 행간은 Set Line Height로 배수로 조절 할 수 있음
- * 텍스트 스타일 활용
+  
+ 2. 텍스트 스타일 활용
   - 텍스트 선택 -> Create new Text Style
- * 심볼활용
+  
+ 3. 심볼활용
   - 자주 텍스트를 변경해야할 때 -> Create Symbol
 
 
