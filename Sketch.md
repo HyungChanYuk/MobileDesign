@@ -48,8 +48,40 @@ Sketch
   
   
 ### Material Design & Human Interface Guideline
+ * 매터리얼 디자인 : 여러 기기에서 (구글)제품을 표준화할 수 있는 디자인 제안
+  - 구글 = 안드로이드 = 다양한 디바이스  = 자유로운 마켓 & 개발 친화적 환경 = 뭐든지 만들 수 있는 종이컨셉
+  
+ * 휴먼 인터페이스 가이드라인 : 애플 기기에서 아름답고 쓰기 편한 환경을 지향
+  - 애플 = iOS = 독자적 기기 = 폐쇄적인 마켓&까다로운 개발 환경 = 하드웨어를 돋보이게 하는 미니멀리즘
+  
+  
+ 
+ ### 8-Point 그리드 시스템
+  * 8bit = 1byte
+   - 스마트폰은 아이폰에서 시작했기 때문에 아이폰의 pt단위
+   - 디자인 요소들의 사이즈는 8의 배수로(주요 스크린 사이즈들이 8의 배수)
+   - 작은 단위는 4의 배수로.(매트리얼 디자인은 4dp가 기본)
+  * 적용 요소들
+   - Font sizes
+   - Line heights
+   - Padding
+   - Margins
+   - Roundings
+   - Fixed width, Fixed heights
+  * 응용방식
+   - Grid Setting -> Grid Block Size : 8px
+   - Nudge, Push, Shove 플러그인  -> set Nudge to 4, Set Push to 16, Set Shove to 48
+ 
 
-    
+### 타이포그래피 관리
+ * 유의할 점
+  - Material Type System의 권장 사이즈, 두께, 명도를 응용
+  - 텍스트 정렬은 Align Text Baseline을 이용해야 베이스라인에 맞게 정렬
+  - 행간은 Set Line Height로 배수로 조절 할 수 있음
+ * 텍스트 스타일 활용
+  - 텍스트 선택 -> Create new Text Style
+ * 심볼활용
+  - 자주 텍스트를 변경해야할 때 -> Create Symbol
 
 
 
